@@ -16,6 +16,8 @@ Campos identificados no cadastro desse site:
 * Nome
 * Sobrenome
 * Data de Nascimento
+* CPF
+* RG
 * País
 * E-mail
 * Confirme seu e-mail
@@ -30,14 +32,12 @@ Campos identificados no cadastro desse site:
 * Estado
 * Adicione as instruções de entrega (opcional)
 * Número de telefone*
-* CPF*
-* RG*
 * Métodos de envio
 * Standard Delivery
 * Frete em 2-3 dias úteis
 * Os itens podem ser enviados individualmente assim que estiverem disponíveis. Você receberá e-mails de confirmação separados quando os produtos forem enviados para você.
  
-# 🛠️ Tecnologias
+# 🛠️ Tecnologias usadas 
 * HTML
 * CSS
 # 🔧 Ferramentas
@@ -52,7 +52,7 @@ git status
 # Sites Utilizados
 * Prada
 * Zara
-* Lacoste
+* Nike
 # Autores
 * Thaynara yasmin silva carlo
 has context menu
