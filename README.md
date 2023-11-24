@@ -49,11 +49,7 @@ Campos identificados no cadastro desse site:
 * Zara
 * Nike
 
-### imagem do site 
-<img src="dados pessoais.png" width= "40%">
-<img src="dados de endereço" width= "40%">
-
 ### Autora
-* Thaynara yasmin silva carlo
-<img src="thaynara.jpeg" width= "10%">
+| [<img loading="eu.jpeg" src="thaynara.jpeg" width=115><br><sub>Thaynara Yasmin Silva Carlo.</sub>](https://github.com/Thaynaracarlo) |
+| :---:
 
