@@ -1,4 +1,5 @@
-# 🚀Form-CadEcommerce
+# 🚀Cadastro de E-commerce
+<img src="form-cadEcomerce.png" width="40%">
  
 # 📋 Sobre o Form-CadEcommerce
 O projeto de form-contato foi realizado composto pela seguinte matéria:
@@ -38,6 +39,7 @@ Campos identificados no cadastro desse site:
 # 🛠️ Tecnologias 
 * HTML 
 * CSS 
+* Git 
 
 # 🔧 Ferramentas
 * VSCODE
