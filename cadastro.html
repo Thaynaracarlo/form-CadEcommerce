@@ -1,100 +1,112 @@
 <!DOCTYPE html>
 <html>
-     
-    <head>
-      <meta charset='utf-8'>
-      <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-      <title></title>
-      <meta name='viewport' content='width=device-width, initial-scale=1'>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-      <link rel="stylesheet" type="text/css" media="screen" href="_css/style.css">
-    </head>
-    <div class="container">
-      <form class="row g-3">
-    <h3>Dados pessoais</h3>
-    <div class="col-md-6">
-    <label for="nome" class="form-label">Nome</label>
-    <input type="text" class="form-control" id="nome">
-    </div>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title></title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="_css/style.css">
+</head>
+
+<body style="background-color: rgb(237, 237, 248);">
+  <div class="container">
+    <form class="row g-3">
+      <h3>Dados pessoais</h3>
+      <div class="col-md-6">
+        <label for="nome" class="form-label">Nome</label>
+        <input type="text" class="form-control" id="nome">
+      </div>
+
+      <div class="col-md-6">
+        <label for="data de nascimento" class="form-label">Data de nascimento</label>
+        <input type="date" class="form-control" id="data de nascimento">
+      </div>
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email">
+      </div>
+      <div class="col-md-6">
+        <label for="confirme seu e-mail" class="form-label">Confirme seu e-mail</label>
+        <input type="text" class="form-control" id="confirme seu e-mail">
+      </div>
+      <div class="col-md-6">
+        <label for="inputPassword4" class="form-label">Senha</label>
+        <input type="password" class="form-control" id="senha">
+      </div>
+      <div class="col-md-6">
+        <label for="confirmar senha" class="form-label">Confirme sua senha </label>
+        <input type="text" class="form-control" id="confirmar senha">
+      </div>
+      <div class="col-md-4">
+        <label for="numero de telefne" class="form-label">Número de Telefone</label>
+        <input type="tel" class="form-control" id="numero de telefone">
+      </div>
+      <div class="col-md-4">
+        <label for="cpf" class="form-label">CPF</label>
+        <input type="number" class="form-control" id="cpf">
+      </div>
+      <div class="col-md-4">
+        <label for="rg" class="form-label">RG</label>
+        <input type="number" class="form-control" id="rg">
+      </div>
   
-  <div class="col-md-6">
-  <label for="data de nascimento" class="form-label">Data de nascimento</label>
-  <input type="date" class="form-control" id="data de nascimento">
+
+      <h3>Dados de Endereço</h3>
+      <div class="col-md-3">
+      <label for="pais" class="form-label">País</label>
+      <input type="text" class="form-control" id="pais">
+      </div>
+      <div class="col-md-2">
+        <label for="inputZip" class="form-label">Cep</label>
+        <input type="text" class="form-control" id="inputZip">
+      </div>
+      <div class="col-7">
+        <label for="inputAddress" class="form-label">Endereço</label>
+        <input type="text" class="form-control" id="endereco" placeholder="1234 Main St">
+      </div>
+      <div class="col-md-2">
+        <label for="numero de residencia" class="form-label">Número de Residência</label>
+        <input type="number" class="form-control" id="numero de residencia">
+      </div>
+
+      <div class="col-4">
+        <label for="inputAddress2" class="form-label">Bairro</label>
+        <input type="text" class="form-control" id="bairro" placeholder="Apartment, studio, or floor">
+      </div>
+      <div class="col-md-6">
+        <label for="inputCity" class="form-label">Cidade</label>
+        <input type="text" class="form-control" id="cidade">
+      </div>
+      <div class="col-md-6">
+        <label for="inputState" class="form-label">Estado</label>
+        <input id="Estado" class="form-control">
+      </div>
+      <div class="col-md-6">
+        <label for="adicione as instrucoes de entrega" class="form-label">Adicione as instruções de
+          entrega(opcional)</label>
+        <input type="text" class="form-control" id="adicione as instrucoes de entrega">
+      </div>
+
+      <h6>Método de envio.
+        Standard Delivery.
+        Frete em 2-3 dias úteis.
+        Os itens podem ser enviados individualmente assim que estiverem disponíveis.
+        Você receberá e-mails de confirmação separados quando os produtos forem enviados para você. </h6>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+          </label>
+        </div>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Entrar</button>
+      </div>
+    </form>
   </div>
-  <div class="col-md-6">
-  <label for="inputEmail4" class="form-label">Email</label>
-  <input type="email" class="form-control" id="email">
-  </div>
-  <div class="col-md-6">
-  <label for="confirme seu e-mail" class="form-label">Confirme seu e-mail</label>
-  <input type="text" class="form-control" id="confirme seu e-mail">
-  </div>
-  <div class="col-md-6">
-  <label for="inputPassword4" class="form-label">Senha</label>
-  <input type="password" class="form-control" id="senha">
-  </div>
-  <div class="col-md-6">
-  <label for="confirmar senha" class="form-label">confirme sua senha </label>
-  <input type="text" class="form-control" id="confirmar senha">
-  </div>
-  <h3>Dados de Endereço</h3>
-  <div class="col-md-2">
-  <label for="inputZip" class="form-label">Cep</label>
-  <input type="text" class="form-control" id="inputZip">
-  </div>
-  <div class="col-md-3">
-    <label for="pais" class="form-label">País</label>
-<input type="text" class="form-control" id="pais">
-</div>
-<div class="col-md-2">
-  <label for="numero de residencia" class="form-label">Número de Residência</label>
-  <input type="number" class="form-control" id="numero de residencia">
-  </div>
-  <div class="col-7">
-  <label for="inputAddress" class="form-label">Endereço</label>
-  <input type="text" class="form-control" id="endereco" placeholder="1234 Main St">
-   </div>
-  <div class="col-7">
-  <label for="inputAddress2" class="form-label">Bairro</label>
-  <input type="text" class="form-control" id="bairro" placeholder="Apartment, studio, or floor">
-  </div>
-  <div class="col-md-6">
-   <label for="inputCity" class="form-label">Cidade</label>
-  <input type="text" class="form-control" id="cidade">
-  </div>
-  <div class="col-md-4">
-  <label for="inputState" class="form-label">Estado</label>
-  <input id="Estado" class="form-control">
-  </div>
-  <div class="col-md-4">
-  <label for="adicione as instrucoes de entrega" class="form-label">Adicione as instruções de entrega(opcional)</label>
-  <input type="text" class="form-control" id="adicione as instrucoes de entrega">
-  </div>
-  <div class="col-md-4">
-  <label for="numero de telefne" class="form-label">Número de Telefone</label>
-  <input type="tel" class="form-control" id="numero de telefone">
-  </div>
-  <div class="col-md-3">
-  <label for="cpf" class="form-label">CPF</label>
-  <input type="number" class="form-control" id="cpf">
-  </div>
-  <div class="col-md-4">
-  <label for="rg" class="form-label">RG</label>
-  <input type="number" class="form-control" id="rg">
-   </div>
-  <h6>Método de envio.
-    Standard Delivery.
-   Frete em 2-3 dias úteis.
-   Os itens podem ser enviados individualmente assim que estiverem disponíveis.
-    Você receberá e-mails de confirmação separados quando os produtos forem enviados para você. </h6>
-  <div class="col-12">
-  <div class="form-check">
-  <input class="form-check-input" type="checkbox" id="gridCheck">
-  <label class="form-check-label" for="gridCheck">
-  </label>
-  </div>
-  </div>
-  <div class="col-12">
-   <button type="submit" class="btn btn-primary">Entrar</button>
-   </div>  
+</body>
+
+</html>
